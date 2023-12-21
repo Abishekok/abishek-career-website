@@ -30,6 +30,13 @@
       <p class="lead">
         I'm always open to discussing new technologies and strategies that can help me achieve my
       </p>
+    <div>
+      <p>
+        {% for job in jobs %}
+          {%include 'jobitems.html'%}
+        {% endfor %}
+    </div>
+      </p>
       <div class="text-center">
       <button class="btn btn-primary btn-lg mb-10">Contact Me</button>
       </div>
